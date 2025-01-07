@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.outerPage{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.img-1{
+    height: 280px;
+    width: 250px;
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+#voice{
+    height:130px;
+    position: absolute;
+    top: 460px;
+    left: 630px;
+    display: none;
+}
+.fontsty-1{
+    color: white;
+    font-size:30px ;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      position: absolute;
+      top: 350px;
+      left: 430px;
+}
+.fontsty-2{
+    color: rgb(255, 52, 255);
+    font-size: 50px;  
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"MORF" 0; 
+}
+.fontsty-3{
+    color: rgb(50, 243, 243);
+    font-size: 50px;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#btn{
+    background: linear-gradient(to right,rgb(8, 69, 104),rgb(236, 31, 181));
+    padding: 10px;
+    width: 30%;
+    position: absolute;
+    top: 460px;
+    left: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(8, 69, 104),2px 2px 10px rgb(236, 31, 181);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    box-shadow: 2px 2px 20px rgb(8, 69, 104),2px 2px 20px rgb(236, 31, 181);
+    letter-spacing: 5px;
+}
